@@ -1,71 +1,253 @@
-<!DOCTYPE html>
-<html lang="chinese (simplified)">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Lean's World</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/theme/styles.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="/theme/slicknav.css">
-    <script src="/theme/jquery.slicknav.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript"
-	    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Lean's World - </title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Ken M. Lai(networktsukkomime.me)" />
+
     <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/html5.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/respond.min.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/excanvas.compiled.js"></script>
     <![endif]-->
-<script>
-	$(function(){
-		$('#menu').slicknav({'label':''});
-	});
-</script>
-<link rel="icon" href="/theme/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
-<link rel="apple-touch-icon" sizes="114x114" href="/theme/apple-touch-icon-precomposed.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/theme/favicon152.png">
-<link rel="apple-touch-icon" sizes="196x196" href="/theme/favicon196.png">
-  </head>
 
-  <body>
-    <div id="wrapper">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
 
-      <header>
-	<nav class="byline"><ul id="menu">
-        </ul></nav><!-- /#menu -->
-        <div class="downloads">
-          <a href="https://github.com/LeanYan" class="fa fa-GitHub"></a>
-          <a href="https://www.zhihu.com/people/stone-53-86/activities" class="fa fa-知乎"></a>
+
+    <!-- CORE CSS FRAMEWORK -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- CSS TEMPLATE -->
+    <link href="http://LeanYan.github.io/theme/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="http://LeanYan.github.io/theme/css/framework.css" rel="stylesheet" type="text/css" />
+    <link href="http://LeanYan.github.io/theme/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="http://LeanYan.github.io/theme/css/layout.css" rel="stylesheet" type="text/css" />
+
+    <link href="http://LeanYan.github.io/theme/css/blog.css" rel="stylesheet" type="text/css" />
+
+    <!-- ICONS -->
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- Morenizr -->
+    <script type="text/javascript" src="http://LeanYan.github.io/theme/js/modernizr.min.js"></script>
+
+    <!-- google authorship -->
+</head>
+<body>
+    <!-- HOME -->
+    <section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+
+    <div id="slider">
+
+        <ul class="slides-container">
+
+        <!-- Item 1 -->
+        <li>
+            <div class="image-caption">
+            <hr /><hr />
+            <div class="inner">
+                <h2 class="bigtext strtoupper nomargin">Lean&#39;s World</h2>
+            </div>
+            <hr /><hr />
+            </div>
+            <span class="overlay"></span>
+            <div style="background-image: url('');" class="fullscreen-img"></div>
+           
+
+        </li>
+        </ul>
+
+    </div>
+
+    </section>
+    <!-- /HOME -->
+
+
+
+    <!-- Main Nav -->
+<!-- Main Nav -->
+<header id="header" style="margin-top:0">
+
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand scrollTo" href="#home">
+          <img src="" alt="" width="50" height="50" />
+          <span class="hidden-xs">Lean&#39;s World</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <!-- Fullscreen Button - Unavailable for IE -->
+        <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- If the user wants to make articles the home page then remove blog link, and make about and work links point to old home page. -->
+            <li><a href="http://LeanYan.github.io/index.html#home">Home</a></li>
+            <li><a href="http://LeanYan.github.io/index.html#about">About</a></li>
+            <li><a href="http://LeanYan.github.io/blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+              <ul class="dropdown-menu" style="background-color:#000">
+                <li style="background-color:#000"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+                <li style="background-color:#000"><a href="http://python.org/" target="_blank">Python.org</a></li>
+                <li style="background-color:#000"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+</header>
+<!-- /Main Nav -->
+    <!-- /Main Nav -->
+
+    <!-- ABOUT -->
+    <section id="about">
+    <div class="container">
+        <header class="text-center">
+        <h1>ABOUT</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+
+
+        <!-- <article>
+        <div class="row text-left"> -->
+
+            <!-- Passion -->
+        <!--  <div class="col-md-4">
+            <h3>Passion</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+
+            <!-- Precision -->
+            <!-- <div class="col-md-4">
+            <h3>Precision</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+
+            <!-- Simplicity -->
+            <!-- <div class="col-md-4">
+            <h3>Simplicity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+            </div> -->
+
+        <!-- </div>
+        </article> -->
+
+    </div>
+    </section>
+    <!-- /ABOUT -->
+
+
+    <!-- BLOG -->
+    <section id="quick-blog" class="alternate">
+    <div class="container">
+
+        <header class="text-center">
+        <h1>BLOG</h1>
+        <p>RECENT ENTRIES</p>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <article>
+        <div class="row animate_fade_in">
+
+            <div class="col-md-4 quick-hover">
+                <div class="quick-item">
+                    <h4><a class="theme_link" href="http://LeanYan.github.io/second-post.html">Second Post</a></h4>
+                <p>None</p>
+                <a href="http://LeanYan.github.io/second-post.html" class="btn btn-xs theme_link"><i class="fa fa-sign-out"></i> READ MORE</a>
+                </div>
+            </div>
+ 
+
         </div>
-        <hgroup>
-          <h1>Articles by</h1>
-          <h2 class="tagline">Lean</h2>
-        </hgroup>
-      </header>
-<section id="content">
-<ul id="post-list">
-        <li><article class="hentry">
-            <header class="article-list"> <h2 class="entry-title"><a href="http://LeanYan.github.io/second-post.html" rel="bookmark" title="link to Second Post">Second Post</a></h2>
-                <footer class="post-info">
-                    <address class="vcard author">By
-                        <a class="url fn" href="http://LeanYan.github.io/author/lean.html">Lean</a>
-                    </address>
-                    <abbr class="published" title="2018-04-05T12:00:00+08:00">  on 05.04.2018 </abbr>
-                </footer><!-- /.post-info -->
-	    </header>
-                <div class="entry-content"> None </div><!-- /.entry-content -->
-        </article></li>
-</ul><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-</section><!-- /#content -->
-      <footer>
-	  <a href="http://LeanYan.github.io/pages/about.html" >About</a>
-	  <div class="right-footer">
-	  <a href="http://LeanYan.github.io/categories.html" >Categories</a>
-	  <a href="http://LeanYan.github.io/tags.html" >Tags</a>
-	  </div>
-      </footer>
+        </article>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <article class="text-center" data-animation="bounceIn">
+        <a href="blog.html" class="plusNav" title="more from blog">+</a> 
+        </article>
+
+    </div>
+    </section>
+    <!-- /BLOG -->
+
+<!-- FOOTER -->
+<footer>
+
+  <!-- SCROOL TO TOP -->
+  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 copyright">
+            Lean&#39;s World
+            <br />2015 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+              <a href="https://github.com/LeanYan" class="social fa fa-github" target="_blank"></a>
+              <a href="https://www.zhihu.com/people/stone-53-86/activities" class="social fa fa-知乎" target="_blank"></a>
+        </div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+
+<!-- CORE FILES -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/masonry.js"></script>
+
+<!-- PLUGINS -->
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.fitvids.min.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.appear.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.superslides.min.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/holder.js"></script>
+<!-- delete on production -->
+
+<!-- js scripts -->
+<script async type="text/javascript" src="http://LeanYan.github.io/theme/js/scripts.js"></script>
+
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/ImageAutoResize.js"></script>
+<script type="text/javascript" src="http://LeanYan.github.io/theme/js/application.js"></script>
+
+
+
+
 </body>
-</html>
